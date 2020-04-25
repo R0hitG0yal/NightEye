@@ -14,7 +14,11 @@
  */
 
 body{
+ display:grid;
     
+}
+h1{
+ grid-column:1/-1;
 }
 .form-control::-moz-placeholder{
    color: #DDDDDD;
